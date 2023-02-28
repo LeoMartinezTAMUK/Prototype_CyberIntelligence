@@ -19,7 +19,7 @@ dataset = pd.read_csv('network_traffic.csv')
 X = dataset.iloc[:, 4:-1].values
 # Independent Variables(X) Source IP, Destination IP, Source Port, and Destination Port are not yet implemented
 y = dataset.iloc[:, -1].values
-# Dependent Variable(y) is "Mal = 1 Ben = 0"
+# Dependent Variable(y) is "Label(Mal = 1 Ben = 0)"
 
 #%%
 # Encoding Categorical Data
