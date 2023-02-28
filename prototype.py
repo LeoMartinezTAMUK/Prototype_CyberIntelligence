@@ -30,7 +30,7 @@ X = np.array(ct.fit_transform(X))
 print(X)
 # Use these methods to convert categorical data such a protocol into data we can use in the ML algorithm
 
-#%%,
+#%%
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 # 80% of data will be the training set and 20% will be the testing set
