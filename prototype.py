@@ -1,5 +1,5 @@
 # Final Project Prototype/Template Cyber Intelligence CSEN 4370/5303
-# Leo Martinez III, Lidia A Morales, Babatunde T Arowolo
+# Leo Martinez III, Lidia A. Morales, Babatunde T. Arowolo
 
 # Import the required libraries
 import pandas as pd
