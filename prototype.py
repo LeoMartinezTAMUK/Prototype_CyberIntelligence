@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 #%%
 # Load the dataset
-dataset = pd.read_csv(r'C:\Users\Leo\Desktop\Student Work\Spring 2023\Cyber Intelligence\Final Project\Prototype\network_traffic.csv')
+dataset = pd.read_csv('network_traffic.csv')
 # (May need to change the pathway of .csv file above) the dataset used is currently only a sample one, not real data yet.
 
 #%%
