@@ -1,3 +1,4 @@
+# Program was created in Spyder 5.2.2 Anaconda with Python 3.9
 # Final Project Prototype/Template Cyber Intelligence CSEN 4370/5303
 # Leo Martinez III, Lidia A. Morales, Babatunde T. Arowolo
 
@@ -7,7 +8,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
-# Program was created in Spyder 5.2.2 Anaconda with Python 3.9
 
 #%%
 # Load the dataset
@@ -28,7 +28,7 @@ from sklearn.preprocessing import OneHotEncoder
 ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [0])], remainder='passthrough')
 X = np.array(ct.fit_transform(X))
 print(X)
-# Use these methods to convert categorical data such a protocal into data we can use in the ML algorithm
+# Use these methods to convert categorical data such a protocol into data we can use in the ML algorithm
 
 #%%,
 # Split the data into training and testing sets
