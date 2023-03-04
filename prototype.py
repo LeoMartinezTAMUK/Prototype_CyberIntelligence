@@ -1,6 +1,6 @@
 # Program was created in Spyder 5.2.2 Anaconda with Python 3.9
 # Final Project Prototype/Template Cyber Intelligence CSEN 4370/5303
-# Leo Martinez III, Lidia A. Morales, Babatunde T. Arowolo
+# Group 5: Leo Martinez III, Lidia A. Morales, Babatunde T. Arowolo
 
 # Import the required libraries
 import pandas as pd
